@@ -1,0 +1,11 @@
+server:
+  port: 80
+
+logging.file: logs/ymall-web.log
+logging:
+  file:
+    max-size: 10MB
+    max-history: 15
+  level:
+    root: info
+    com.yealink.ymall.product.domain.repositories.mybatis.mapper: debug
